@@ -1,0 +1,155 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Modo escuro */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#toggleTheme {
+  background-color: #16a085;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#toggleTheme:hover {
+  background-color: #13856b;
+}
+
+/* MAIN */
+main {
+  padding: 30px;
+}
+
+.section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+}
+
+.section img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+/* Lista de referências */
+.section a{
+  color:#0066cc;
+}
+.section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+.help{
+  display: flex;
+  
+  justify-content: space-around;
+}
+
+
+
+
+/* Botão voltar ao topo */
+#topBtn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+}
+
+/* Modo escuro */
+body.dark-mode {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+body.dark-mode .section {
+  background-color: #2c2c2c;
+  box-shadow: 0 0 10px #000;
+}
+
+body.dark-mode a {
+  color: #4da8ff;
+}
+
+body.dark-mode #topBtn {
+  background-color: #333;
+}
