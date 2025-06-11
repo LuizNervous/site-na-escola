@@ -152,5 +152,6 @@ body.dark-mode a {
 }
 
 body.dark-mode #topBtn {
-  background-color: #333;
+  background-color: #c7b33f;
+  color: #ffffff;
 }
