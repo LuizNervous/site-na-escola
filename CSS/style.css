@@ -155,3 +155,9 @@ body.dark-mode #topBtn {
   background-color: #c7b33f;
   color: #ffffff;
 }
+
+
+section p{
+  text-indent: 2em;
+  text-align: justify;
+}
