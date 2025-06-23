@@ -55,7 +55,7 @@ header nav {
   gap: 15px;
 }
 
-#toggleTheme {
+#modoescuro {
   background-color: #16a085;
   color: white;
   border: none;
@@ -64,7 +64,7 @@ header nav {
   cursor: pointer;
 }
 
-#toggleTheme:hover {
+#modoescuro:hover {
   background-color: #13856b;
 }
 
