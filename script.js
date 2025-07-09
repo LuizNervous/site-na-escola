@@ -12,7 +12,7 @@ toggleTheme.onclick = () => {
   toggleTheme.textContent = document.body.classList.contains("dark-mode") ? "☀️ Modo Claro" : "🌙 Modo Escuro";
 };
 
-let idiomaAtual='pt';
+let idiomaAtual = 'pt';
 
 const traducoes = {
   pt: {
@@ -57,8 +57,8 @@ const traducoes = {
     footer_credit2: "Direitos e créditos: Luiz Gustavo,",
     footer_credit3: "Lucas Ferreira, Kayo Motta",
     footer_contact: "Fale conosco",
-    footer_phone: "Telefone",
-    footer_email: "Email",
+    footer_phone: "Telefone: (44) 99824-4821",
+    footer_email: "Email: luiz.gu.neves@gmail.com",
   },
   en: {
     main_title: "Traffic Laws for Cyclists",
@@ -94,24 +94,28 @@ const traducoes = {
     curiosities_p3: "🔧 **Preventive bicycle maintenance is essential to ensure safety and performance.** It's recommended to regularly check the brakes (which should be firm and responsive), tires (which should be properly inflated and not overly worn), and the chain (which should be clean and lubricated). Small precautions like these prevent mechanical failures, reduce accident risks, and increase your bikes lifespan. Having a basic maintenance routine is fundamental for frequent riders.",
     curiosities_p4: "🚦 **In Brazil, the Brazilian Traffic Code (CTB) recognizes cyclists as part of traffic and establishes specific laws for their protection.** For example, vehicles must maintain a minimum distance of 1.5 meters when overtaking bicycles, and cyclists have the right to ride in bike lanes, cycle paths, or, in their absence, on the right side of the road. However, what truly makes a difference is mutual respect among drivers, cyclists, and pedestrians. Empathy, patience, and collective awareness are key to making traffic safer and more harmonious for everyone.",
     references_title: "References",
+    references_li1: "Brazilian Traffic Code - CTB",
+    references_li2: "Detran SP (São Paulo State Traffic Department)",
+    references_li3: "National Traffic Council - CONTRAN",
+    references_li4: "National Road Safety Observatory",
     footer_credit1: "Site developed by a group from IFPR",
     footer_credit2: "Credits: Luiz Gustavo,",
     footer_credit3: "Lucas Ferreira, Kayo Motta",
     footer_contact: "Contact us",
-    footer_phone: "Phone",
-    footer_email: "Email",
+    footer_phone: "Phone: (44) 99824-4821",
+    footer_email: "Email: luiz.gu.neves@gmail.com",
     top_button: "⬆"
   }
 };
-function trocaridioma(){
-    idiomaAtual= idiomaAtual === 'pt'? 'en':'pt';
-    const t =traducoes[idiomaAtual];
+function trocaridioma() {
+  idiomaAtual = idiomaAtual === 'pt' ? 'en' : 'pt';
+  const t = traducoes[idiomaAtual];
 
-    document.querySelectorAll('[data-translate]').forEach(el => {
-        const chave = el.getAttribute('data-translate');
-        el.textContent = t[chave];
-    })
-     document.getElementById('TrocarIdioma').textContent =
-        idiomaAtual === 'pt' ? 'Change to English' : 'Mude para português';
+  document.querySelectorAll('[data-translate]').forEach(el => {
+    const chave = el.getAttribute('data-translate');
+    el.textContent = t[chave];
+  })
+  document.getElementById('TrocarIdioma').textContent =
+    idiomaAtual === 'pt' ? 'Change to English' : 'Mude para português';
 }
 document.getElementById('TrocarIdioma').addEventListener('click', trocaridioma);
