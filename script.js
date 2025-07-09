@@ -116,6 +116,6 @@ function trocaridioma() {
     el.textContent = t[chave];
   })
   document.getElementById('TrocarIdioma').textContent =
-    idiomaAtual === 'pt' ? 'Change to English' : 'Mude para português';
+    idiomaAtual === 'pt' ? '🇺🇸 Change to English' : '🇧🇷 Mude para Português';
 }
 document.getElementById('TrocarIdioma').addEventListener('click', trocaridioma);
