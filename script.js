@@ -47,6 +47,7 @@
     curiosities_p3: "A manutenção preventiva da bicicleta é essencial para garantir segurança e desempenho.",
     curiosities_p4: "No Brasil, o Código de Trânsito Brasileiro reconhece o ciclista como parte do trânsito e estabelece leis específicas.",
     references_title: "Referências",
+    
     footer_credit1: "Site desenvolvido pelo um grupo do IFPR",
     footer_credit2: "Direitos e créditos: Luiz Gustavo,",
     footer_credit3: "Lucas Ferreira, Kayo Motta",
