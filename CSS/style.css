@@ -57,11 +57,14 @@ header nav {
 }
 
 #TrocarIdioma {
-  background-color: #4ef09f;
+  background-color:#1cc74f ;
   border:none;
   padding: 8px 15px;
   border-radius: 4px;
   cursor: pointer;
+}
+#TrocarIdioma:hover{
+  background-color:#4ef09f ;
 }
 
 #modoescuro {
