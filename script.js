@@ -12,7 +12,9 @@ toggleTheme.onclick = () => {
   toggleTheme.textContent = document.body.classList.contains("dark-mode") ? "☀️ Modo Claro" : "🌙 Modo Escuro";
 };
 
-const translations = {
+let idiomaAtual='pt';
+
+const traducoes = {
   pt: {
     main_title: "Leis de Trânsito para Ciclistas",
     dark_mode: "🌙 Modo Escuro",
@@ -101,3 +103,15 @@ const translations = {
     top_button: "⬆"
   }
 };
+function trocaridioma(){
+    idiomaAtual= idiomaAtual === 'pt'? 'en':'pt';
+    const t =traducoes[idiomaAtual];
+
+    document.querySelectorAll('[data-translate]').forEach(el => {
+        const chave = el.getAttribute('data-translate');
+        el.textContent = t[chave];
+    })
+     document.getElementById('TrocarIdioma').textContent =
+        idiomaAtual === 'pt' ? 'Change to English' : 'Mude para português';
+}
+document.getElementById('TrocarIdioma').addEventListener('click', trocaridioma);
