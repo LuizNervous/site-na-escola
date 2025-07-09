@@ -53,7 +53,6 @@
     footer_contact: "Fale conosco",
     footer_phone: "Telefone",
     footer_email: "Email",
-    top_button: "⬆"
   },
   en: {
     main_title: "Traffic Laws for Cyclists",
