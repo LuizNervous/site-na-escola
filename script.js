@@ -48,6 +48,10 @@ const traducoes = {
     curiosities_p3: "🔧 A manutenção preventiva da bicicleta é essencial para garantir segurança e desempenho. É recomendável verificar regularmente os freios, que devem estar firmes e responsivos; os pneus, que precisam estar calibrados e sem desgaste excessivo; e a corrente, que deve estar limpa e lubrificada. Pequenos cuidados como esses evitam falhas mecânicas inesperadas, reduzem o risco de acidentes e aumentam a durabilidade da bicicleta. Ter uma rotina de revisão, mesmo básica, é fundamental para quem pedala com frequência.",
     curiosities_p4: "🚦 No Brasil, o Código de Trânsito Brasileiro (CTB) reconhece o ciclista como parte do trânsito e estabelece leis específicas para sua proteção. Por exemplo, os veículos devem manter uma distância mínima de 1,5 metro ao ultrapassar bicicletas, e os ciclistas têm direito de circular em ciclovias, ciclofaixas e, na ausência delas, no canto direito da pista. No entanto, o que realmente faz a diferença é o respeito mútuo entre motoristas, ciclistas e pedestres. A empatia, a paciência e a consciência coletiva são fundamentais para tornar o trânsito mais seguro e harmonioso para todos.",
     references_title: "Referências",
+    references_li1: "Código de Trânsito Brasileiro - CTB",
+    references_li2: "Detran SP (Departamento de Trânsito do Estado de São Paulo)",
+    references_li3: "Conselho Nacional de Trânsito - CONTRAN",
+    references_li4: "Observatório Nacional de Segurança Viária",
     footer_credit1: "Site desenvolvido pelo um grupo do IFPR",
     footer_credit2: "Direitos e créditos: Luiz Gustavo,",
     footer_credit3: "Lucas Ferreira, Kayo Motta",
@@ -113,3 +117,4 @@ function trocaridioma() {
     idiomaAtual === 'pt' ? '🇺🇸 Change to English' : '🇧🇷 Mude para Português';
 }
 document.getElementById('TrocarIdioma').addEventListener('click', trocaridioma);
+
