@@ -98,8 +98,8 @@ main {
 }
 .section img {
   max-width: 100%;
-  border-radius: 6px;
-  margin-top: 15px;
+  border-radius: 8px;
+  padding-left: 15px;
 }
 
 /* Lista de referências */
