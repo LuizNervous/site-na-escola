@@ -104,7 +104,11 @@ main {
   flex: 1;
   min-width: 200px;
 }
-
+@media (max-width: 600px) {
+  .section img {
+    width: 300px;
+  }
+}
 .section img {
   max-width: 900px;
   border-radius: 8px;
