@@ -95,6 +95,10 @@ main {
 }
 .deixarimgdolado{
   display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-items: center;
 }
 .introtext{
   flex: 1;
@@ -102,9 +106,8 @@ main {
 }
 
 .section img {
-  max-width: 100%;
+  max-width: 900px;
   border-radius: 8px;
-  margin-left: 15px;
 }
 
 /* Lista de referências */
