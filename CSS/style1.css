@@ -12,33 +12,35 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
-button{
-    padding: 10px;
-    border-radius: 10px;
-    border: none  ;
-    background-color: #16a085;
-    color: rgb(255, 255, 255);
 
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #16a085;
+  color: rgb(255, 255, 255);
 }
-button:hover{
-    background-color: #13856b;
-    cursor: pointer;
+
+button:hover {
+  background-color: #13856b;
+  cursor: pointer;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
 }
+
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #333;
   margin: 0 10px;
   transition: all 0.3s;
 }
 
 a:hover {
-  color: #47d6b9;
+  color: #29d6b4;
 }
 
 
@@ -47,25 +49,23 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 10px;
-  margin-top: 40px;
+
   font-size: 0.9rem;
 }
 
-main{
+main {
   padding: 30px;
-  height: 594px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  background-color: #f5f5f5;
 }
 
-main div{
-  margin-top: 20px;
-  background-color: #2c4866;
-  border-radius: 15px;
+main div {
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
   padding: 5vh;
-  color: rgb(223, 223, 223);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #333;
 }
-
-
