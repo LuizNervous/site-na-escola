@@ -58,6 +58,7 @@ const traducoes = {
     footer_contact: "Fale conosco",
     footer_phone: "Telefone: (44) 99824-4821",
     footer_email: "Email: luiz.gu.neves@gmail.com",
+    curriculos: "Clique aqui para saber mais sobre nós!",
   },
   en: {
     main_title: "Traffic Laws for Cyclists",
@@ -103,6 +104,7 @@ const traducoes = {
     footer_contact: "Contact us",
     footer_phone: "Phone: (44) 99824-4821",
     footer_email: "Email: luiz.gu.neves@gmail.com",
+    curriculos: "Click here to learn more about us!",
   }
 };
 function trocaridioma() {
