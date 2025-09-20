@@ -8,7 +8,7 @@ topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 const toggleTheme = document.getElementById("modoescuro");
 toggleTheme.onclick = () => {
   document.body.classList.toggle("dark-mode");
-  toggleTheme.textContent = document.body.classList.contains("dark-mode") ? "☀️ Modo Claro" : "🌙 Modo Escuro";
+  toggleTheme.textContent = document.body.classList.contains("dark-mode") ? "☀️" : "🌙 ";
 };
 
 let idiomaAtual = 'pt';
@@ -16,7 +16,7 @@ let idiomaAtual = 'pt';
 const traducoes = {
   pt: {
     main_title: "Leis de Trânsito para Ciclistas",
-    dark_mode: "🌙 Modo Escuro",
+    dark_mode: "🌙",
     nav_intro: "Introdução",
     nav_rights: "Direitos",
     nav_safety: "Segurança",
@@ -62,7 +62,7 @@ const traducoes = {
   },
   en: {
     main_title: "Traffic Laws for Cyclists",
-    dark_mode: "🌙 Dark Mode",
+    dark_mode: "🌙",
     nav_intro: "Introduction",
     nav_rights: "Rights",
     nav_safety: "Safety",
