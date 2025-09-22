@@ -120,7 +120,7 @@ function trocaridioma() {
     el.textContent = t[chave];
   })
   document.getElementById('TrocarIdioma').textContent =
-    idiomaAtual === 'pt' ? '🇺🇸 Change to English' : '🇧🇷 Mude para Português';
+    idiomaAtual === 'pt' ? '🇺🇸 English' : '🇧🇷 Português';
 }
 document.getElementById('TrocarIdioma').addEventListener('click', trocaridioma);
 
