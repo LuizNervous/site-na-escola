@@ -55,22 +55,26 @@ header nav {
   flex-wrap: wrap;
   gap: 15px;
 }
+body.dark-mode #TrocarIdioma{
+  background-color: #000000;
+  color: #c71d72;
+}
 
 #TrocarIdioma {
-  background-color: #16a085;
-  border: none;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 4px;
+  top: 29px;
+  right: 20px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
   cursor: pointer;
+  border: none;
 }
 
-#TrocarIdioma:hover {
-  background-color: #13856b;
-}
 
 #modoescuro {
-  background-color: #16a085;
+  background-color: #3a99f1;
   color: white;
   border: none;
   padding: 8px 15px;
@@ -79,9 +83,14 @@ header nav {
 }
 
 #modoescuro:hover {
-  background-color: #13856b;
+  background-color: #45bdec;
 }
-
+body.dark-mode #modoescuro{
+    background-color: #4f1fbe;
+}
+body.dark-mode #modoescuro:hover{
+    background-color: #5118ec;
+}
 /* MAIN */
 main {
   padding: 30px;
@@ -109,15 +118,10 @@ main {
   min-width: 200px;
 }
 
+
 @media (max-width: 600px) {
   .section img {
-    width: 300px;
-  }
-}
-
-@media (max-width: 470px) {
-  .section img {
-    width: 230px;
+    width: 100%;
   }
 }
 
@@ -189,7 +193,7 @@ body.dark-mode a {
 }
 
 body.dark-mode #topBtn {
-  background-color: #e7cb29;
+  background-color: #ff477e;
   color: #ffffff;
 }
 

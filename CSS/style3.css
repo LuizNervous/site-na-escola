@@ -11,6 +11,7 @@ header {
     padding: 20px 30px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -33,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #f7f3f3;
+  background-color: #f5f5f5;
     transition: all 0.3s;
 }
 
@@ -42,21 +43,23 @@ a {
     text-decoration: none;
     transition: all 0.3s;
 }
-
 .imgsinail {
   width: 600px;
   margin: 20px;
+    max-width: 100%;
+    height: auto;
+  border-radius: 10px;
 }
 
-@media (max-width:400px) {
+@media (max-width: 800px) {
   .imgsinail {
-    width: 200px;
+    width: 400px;
   }
 }
 
-@media (max-width:560px) {
+@media (max-width: 500px) {
   .imgsinail {
-    width: 340px;
+    width: 90%; 
   }
 }
 a:hover {
@@ -66,13 +69,14 @@ a:hover {
 footer a {
     color: white;
 }
-
-main h2 .dark-mode {
-    color: white;
+.clique{
+    margin-top: 60px;
 }
-
+span{
+    color: red;
+}
 body.dark-mode {
-    background-color: #1e1e1e;
+  background-color: #1f1f1f;
     color: #e0e0e0;
 }
 
@@ -84,24 +88,34 @@ body.dark-mode footer {
 body.dark-mode a {
     color: white;
 }
-
+body.dark-mode main {
+    background-color: #070707b2;
+    color: #f0f0f0;
+}
 
 main {
-    padding: 30px;
+    padding: 20px;
     display: flex;
+    border-radius:10px ;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex-direction: column;
     flex-grow: 1;
+    margin: 24px;
 }
 
 footer {
     background-color: #2c3e50;
     color: white;
-    padding: 20px 10px;
+    padding: 25px 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 0.9rem;
-
+    flex-wrap: wrap;
+}
+footer div{
+    margin: 10px;
 }
 
 

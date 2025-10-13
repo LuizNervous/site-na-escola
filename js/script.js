@@ -58,8 +58,7 @@ const traducoes = {
     footer_credit2: "Direitos e créditos: Luiz Gustavo,",
     footer_credit3: "Lucas Ferreira, Kayo Motta",
     footer_contact: "Fale conosco",
-    footer_phone: "Telefone: (44) 99824-4821",
-    footer_email: "Email: luiz.gu.neves@gmail.com",
+    footer_email: "Email: sitenaescola1@gmail.com",
     curriculos: "Clique aqui para saber mais sobre nós!",
   },
   en: {
@@ -102,25 +101,73 @@ const traducoes = {
     references_li2: "Detran SP (São Paulo State Traffic Department)",
     references_li3: "National Traffic Council - CONTRAN",
     references_li4: "National Road Safety Observatory",
-    footer_credit1: "Site developed by a group from IFPR",
+    footer_credit1: "Website developed by a group from IFPR",
     footer_credit2: "Credits: Luiz Gustavo,",
     footer_credit3: "Lucas Ferreira, Kayo Motta",
     footer_contact: "Contact us",
-    footer_phone: "Phone: (44) 99824-4821",
-    footer_email: "Email: luiz.gu.neves@gmail.com",
+        footer_email: "Email: sitenaescola1@gmail.com",
     curriculos: "Click here to learn more about us!",
-  }
+  },
+  es: {
+  main_title: "Leyes de Tránsito para Ciclistas",
+  dark_mode: "🌙",
+  nav_intro: "Introducción",
+  nav_rights: "Derechos",
+  nav_safety: "Seguridad",
+  nav_prevention: "Prevención",
+  nav_curiosities: "Curiosidades",
+  intro_title: "Introducción",
+  intro_p1: "Este sitio web tiene como objetivo informar a ciclistas, conductores y peatones sobre las leyes de tránsito que involucran el uso de la bicicleta en Brasil. Abordamos los principales derechos y deberes de los ciclistas, las reglas de seguridad y cómo garantizar una convivencia armoniosa en las vías públicas.",
+  intro_p2: "Las bicicletas están reconocidas como vehículos por el Código de Tránsito Brasileño y merecen respeto y protección. Un tránsito seguro depende de la conciencia de todos. Aquí mostramos cómo todos pueden contribuir a unas vías más humanas y organizadas.",
+  intro_p3: "Nuestro compromiso es promover la educación vial, reforzando la importancia de la empatía y del uso responsable del espacio público. Ya seas un ciclista experimentado, alguien que empieza a pedalear, un conductor o un peatón, encontrarás aquí información clara y actualizada para tomar decisiones más seguras y conscientes en el día a día.",
+  intro_p4: "Además de ofrecer orientación sobre normas y conductas, también destacamos buenas prácticas de convivencia e iniciativas exitosas en movilidad urbana. Creemos que la bicicleta es una aliada en la construcción de ciudades más sostenibles, accesibles y saludables, y que la información es la mejor herramienta para transformar el tránsito en un entorno más justo y colaborativo.",
+  intro_p5: "Explora nuestros contenidos, compártelos con tu comunidad y ayuda a fortalecer la cultura de la paz en el tránsito. Juntos, podemos marcar la diferencia.",
+  rights_title: "Derechos y Deberes de los Ciclistas",
+  rights_p1: "El Código de Tránsito Brasileño (CTB) reconoce al ciclista como parte integrante del tránsito, con derechos y deberes, al igual que los demás usuarios de las vías públicas. El ciclista tiene derecho al uso de la vía y debe ser respetado por conductores y peatones. Cuando existan ciclovías, ciclopistas o arcenes apropiados, los ciclistas deben utilizarlos, promoviendo mayor seguridad para todos. En las vías compartidas, el respeto mutuo entre conductores y ciclistas es esencial, siendo obligatoria una distancia lateral mínima de 1,5 metros durante los adelantamientos, tal como establece el CTB.",
+  rights_p2: "Además de los derechos, los ciclistas también tienen responsabilidades. Es fundamental que respeten las señales de tránsito, no circulen en sentido contrario y señalicen con antelación cualquier cambio de dirección, contribuyendo a un tránsito más previsible y seguro. El uso de equipos obligatorios, como timbre, espejo retrovisor en el lado izquierdo y señalización nocturna (reflectores delanteros, traseros y laterales), es indispensable, especialmente al pedalear con poca visibilidad o de noche.",
+  rights_p3: "La seguridad vial es un compromiso colectivo. Conductores, ciclistas y peatones deben actuar con atención y empatía, reconociendo que todos tienen derecho a desplazarse con seguridad. Promover la convivencia armoniosa entre los diferentes modos de transporte es esencial para construir ciudades más humanas y sostenibles.",
+  safety_title: "Seguridad en el Tránsito",
+  safety_p1: "El uso de equipos de seguridad es esencial para la protección del ciclista. Elementos como casco, luces delanteras y traseras, reflectores en las ruedas y en la parte trasera de la bicicleta, además de chalecos o bandas reflectantes, son fundamentales para aumentar la visibilidad y reducir los riesgos de accidentes. Aunque el casco no es obligatorio por ley en todas las situaciones, su uso es altamente recomendable, ya que protege contra impactos en caso de caída o colisión.",
+  safety_p2: "Adoptar actitudes responsables en el tránsito también forma parte importante de la seguridad. Respetar el sentido de la vía, es decir, circular siempre en el mismo sentido que los vehículos, es una regla básica que previene conflictos y colisiones. Evitar pedalear sobre las aceras, salvo donde esté expresamente permitido o señalado, contribuye a la seguridad de los peatones y evita multas. Señalizar con los brazos antes de girar o detenerse, así como indicar la presencia con el timbre, son gestos simples que mejoran la comunicación en el tránsito.",
+  safety_p3: "La visibilidad del ciclista, especialmente durante la noche, es un factor determinante para evitar accidentes. Mantener las luces encendidas y usar ropa clara o con elementos reflectantes ayuda a que los conductores perciban la presencia del ciclista a tiempo de tomar decisiones seguras. Además, es importante estar atento a los baches, irregularidades en el pavimento, alcantarillas abiertas y puertas de autos estacionados que puedan abrirse inesperadamente.",
+  safety_p4: "Los vehículos de gran tamaño, como autobuses y camiones, presentan puntos ciegos donde el ciclista puede no ser visto. Por eso, es fundamental mantener una distancia segura de estos vehículos, evitando adelantamientos arriesgados o desplazamientos demasiado cercanos. Conducir con atención, mantener ambas manos en el manillar y los ojos atentos al entorno son las claves para un trayecto seguro y tranquilo. El cuidado de la propia seguridad también contribuye a la seguridad de todos en el tránsito.",
+  prevention_title: "Prevención de Accidentes",
+  prevention_p1: "Evitar comportamientos de riesgo es fundamental para promover un tránsito más seguro y armonioso para todos. Los conductores nunca deben amenazar, presionar ni 'cerrar' a los ciclistas; esas actitudes, además de irrespetuosas, son extremadamente peligrosas y constituyen infracciones graves según el Código de Tránsito Brasileño. La prisa o la impaciencia nunca justifican poner en riesgo la vida de alguien. Lo mismo se aplica a los peatones, que deben evitar caminar sobre ciclovías y ciclopistas, espacios exclusivos para bicicletas, salvo en casos de cruce señalado o donde la ley lo permita.",
+  prevention_p2: "La base de un tránsito seguro está en la educación, el respeto mutuo y la empatía entre todos los usuarios de la vía. Cada uno tiene su espacio y su tiempo, y reconocerlo es el primer paso para reducir conflictos y accidentes. Promover actitudes positivas, como la cortesía y la paciencia, ayuda a crear un entorno urbano más amable y accesible, fomentando el uso de la bicicleta como medio de transporte sostenible.",
+  prevention_p3: "Medidas simples pero eficaces pueden salvar vidas. Mantener una distancia segura de otros vehículos y obstáculos, evitar el uso del teléfono móvil o auriculares mientras se pedalea (para mantener la atención total en el entorno) y realizar revisiones periódicas de la bicicleta —como revisar los frenos, neumáticos, cadena e iluminación— son cuidados básicos que marcan la diferencia. Una bicicleta en buenas condiciones técnicas es esencial para evitar fallos durante el trayecto.",
+  prevention_p4: "Además de las acciones individuales, las acciones colectivas como campañas de concienciación, programas educativos en escuelas y empresas, y la mejora de la infraestructura urbana son indispensables. Una señalización clara, ciclovías bien planificadas, iluminación adecuada y una fiscalización efectiva contribuyen directamente a la reducción de accidentes y a la valorización de la movilidad activa. Cuando todos hacen su parte, el tránsito se vuelve más seguro, humano y eficiente.",
+  prevention_h3: "Existen varios tipos de señalizaciones para los ciclistas que buscan más prevención al andar en bicicleta.",
+  prevention_a: "¡Haz clic aquí para saber más!",
+  curiosities_title: "Curiosidades",
+  curiosities_p1: "🚴¿Sabías que el uso diario de la bicicleta puede reducir hasta en un 40% el riesgo de enfermedades cardíacas? Andar en bicicleta regularmente es una excelente forma de ejercicio aeróbico que fortalece el corazón, mejora la circulación sanguínea y ayuda a controlar el colesterol y la presión arterial. Además, el ciclismo también contribuye al control del peso, al aumento de la resistencia física y a la liberación de endorfinas que promueven la sensación de bienestar. En otras palabras, al adoptar la bicicleta como parte de tu rutina, cuidas tanto tu cuerpo como tu mente.",
+  curiosities_p2: "🌍En ciudades como Ámsterdam, en los Países Bajos, y Copenhague, en Dinamarca, más de la mitad de la población utiliza la bicicleta como principal medio de transporte. Estos lugares son ejemplos de planificación urbana orientada a la sostenibilidad, con infraestructura de alta calidad como ciclovías bien señalizadas, estacionamientos para bicicletas y políticas públicas que fomentan el uso de la bicicleta. El resultado es una reducción significativa en la emisión de contaminantes, menos congestión y una mejor calidad de vida para la población. Estos modelos demuestran que invertir en movilidad activa es una elección inteligente para el futuro de las ciudades.",
+  curiosities_p3: "🔧El mantenimiento preventivo de la bicicleta es esencial para garantizar la seguridad y el rendimiento. Se recomienda revisar periódicamente los frenos (que deben estar firmes y responder bien), los neumáticos (que deben estar inflados y sin desgaste excesivo) y la cadena (que debe estar limpia y lubricada). Pequeños cuidados como estos evitan fallos mecánicos inesperados, reducen el riesgo de accidentes y aumentan la durabilidad de la bicicleta. Tener una rutina básica de revisión es fundamental para quienes pedalean con frecuencia.",
+  curiosities_p4: "🚦En Brasil, el Código de Tránsito Brasileño (CTB) reconoce al ciclista como parte del tránsito y establece leyes específicas para su protección. Por ejemplo, los vehículos deben mantener una distancia mínima de 1,5 metros al adelantar bicicletas, y los ciclistas tienen derecho a circular por ciclovías, ciclopistas o, en su ausencia, por el lado derecho de la calzada. Sin embargo, lo que realmente marca la diferencia es el respeto mutuo entre conductores, ciclistas y peatones. La empatía, la paciencia y la conciencia colectiva son fundamentales para hacer del tránsito un entorno más seguro y armonioso para todos.",
+  references_title: "Referencias",
+  references_li1: "Código de Tránsito Brasileño - CTB",
+  references_li2: "Departamento de Tránsito del Estado de São Paulo (Detran SP)",
+  references_li3: "Consejo Nacional de Tránsito - CONTRAN",
+  references_li4: "Observatorio Nacional de Seguridad Vial",
+  footer_credit1: "Sitio desarrollado por un grupo del IFPR",
+  footer_credit2: "Créditos: Luiz Gustavo,",
+  footer_credit3: "Lucas Ferreira, Kayo Motta",
+  footer_contact: "Contáctanos",
+  footer_email: "Correo: sitenaescola1@gmail.com",
+  curriculos: "¡Haz clic aquí para saber más sobre nosotros!"
+}
 };
-function trocaridioma() {
-  idiomaAtual = idiomaAtual === 'pt' ? 'en' : 'pt';
+function trocarIdioma(idioma) {
+  idiomaAtual = idioma;
   const t = traducoes[idiomaAtual];
 
   document.querySelectorAll('[data-translate]').forEach(el => {
     const chave = el.getAttribute('data-translate');
-    el.textContent = t[chave];
-  })
-  document.getElementById('TrocarIdioma').textContent =
-    idiomaAtual === 'pt' ? '🇺🇸 English' : '🇧🇷 Português';
+    if (t[chave]) el.textContent = t[chave];
+  });
 }
-document.getElementById('TrocarIdioma').addEventListener('click', trocaridioma);
+
+// Detecta mudança no seletor
+document.getElementById('TrocarIdioma').addEventListener('change', (e) => {
+  trocarIdioma(e.target.value);
+});
 

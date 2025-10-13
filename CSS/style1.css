@@ -12,6 +12,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 button {
@@ -33,7 +34,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-      background-color: #f7f3f3;
+  background-color: #f7f3f3;
+  transition: all 0.3s;
 }
 
 a {
@@ -81,5 +83,23 @@ main div {
   padding: 5vh;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: #333;
+}
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode div {
+    background-color: #111;
+    color: #f0f0f0;
+}
+body.dark-mode a {
+    color: white;
+}
+body.dark-mode div {
+    background-color: #070707b2;
+    color: #f0f0f0;
 }
 
