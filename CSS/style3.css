@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
     transition: all 0.3s;
 }
 
@@ -43,25 +43,27 @@ a {
     text-decoration: none;
     transition: all 0.3s;
 }
+
 .imgsinail {
-  width: 600px;
-  margin: 20px;
+    width: 600px;
+    margin: 20px;
     max-width: 100%;
     height: auto;
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 @media (max-width: 800px) {
-  .imgsinail {
-    width: 400px;
-  }
+    .imgsinail {
+        width: 400px;
+    }
 }
 
 @media (max-width: 500px) {
-  .imgsinail {
-    width: 90%; 
-  }
+    .imgsinail {
+        width: 90%;
+    }
 }
+
 a:hover {
     color: #22b396;
 }
@@ -69,15 +71,57 @@ a:hover {
 footer a {
     color: white;
 }
-.clique{
+
+.clique {
     margin-top: 60px;
 }
-span{
+
+span {
     color: red;
 }
+
 body.dark-mode {
-  background-color: #1f1f1f;
+    background-color: #1f1f1f;
     color: #e0e0e0;
+}
+
+body.dark-mode #TrocarIdioma {
+    background-color: #000000;
+    color: #c71d72;
+}
+
+#TrocarIdioma {
+    top: 29px;
+    right: 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+}
+
+
+#modoescuro {
+    background-color: #3a99f1;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#modoescuro:hover {
+    background-color: #45bdec;
+}
+
+body.dark-mode #modoescuro {
+    background-color: #4f1fbe;
+}
+
+body.dark-mode #modoescuro:hover {
+    background-color: #5118ec;
 }
 
 body.dark-mode header,
@@ -85,9 +129,11 @@ body.dark-mode footer {
     background-color: #111;
     color: #f0f0f0;
 }
+
 body.dark-mode a {
     color: white;
 }
+
 body.dark-mode main {
     background-color: #070707b2;
     color: #f0f0f0;
@@ -96,7 +142,7 @@ body.dark-mode main {
 main {
     padding: 20px;
     display: flex;
-    border-radius:10px ;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex-direction: column;
@@ -114,7 +160,8 @@ footer {
     font-size: 0.9rem;
     flex-wrap: wrap;
 }
-footer div{
+
+footer div {
     margin: 10px;
 }
 

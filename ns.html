@@ -10,29 +10,46 @@
 
 <body>
     <header>
-        <h1>Nossos Currículos</h1>
-        <a href="index.html"><button>Clique aqui para voltar</button></a>
-            <button id="modoescuro">🌙</button>
+        <h1 data-translate="title">Nossos Currículos</h1>
+        <a href="index.html"><button data-translate="bottonback">Clique aqui para voltar</button></a>
+        <button id="modoescuro">🌙</button>
+        <select name="" id="TrocarIdioma">
+            <option value="pt">🇧🇷 Português</option>
+            <option value="en">🇺🇸 English</option>
+            <option value="es">🇪🇸 Español</option>
+        </select>
     </header>
     <main>
         <div>
-            <h1>Luiz Gustavo Castro Neves</h1>
-            <h2>Currículo:</h2>
-            <p><a href="https://luiznervous.github.io/curriculoescolar/" target="_blank">https://luiznervous.github.io/curriculoescolar/</a></p>
+            <h1 data-translate="name1">Luiz Gustavo Castro Neves</h1>
+            <h2 data-translate="h2_name1">Currículo:</h2>
+            <p><a href="https://luiznervous.github.io/curriculoescolar/" target="_blank" data-translate="curriculo1">https://luiznervous.github.io/curriculoescolar/</a></p>
         </div>
         <div>
-            <h1>Lucas Ferreira dos Santos</h1>
-            <h2>Currículo:</h2>
-            <p><a href="https://laec-vvix.vercel.app/" target="_blank">https://laec-vvix.vercel.app/</a></p>
+            <h1 data-translate="name2">Lucas Ferreira dos Santos</h1>
+            <h2 data-translate="h2_name2">Currículo:</h2>
+            <p><a href="https://laec-vvix.vercel.app/" target="_blank" data-translate="curriculo2">https://laec-vvix.vercel.app/</a></p>
         </div>
         <div>
-            <h1>Kayo Malmsteen Gabriel Ferreira Motta</h1>
-            <h2>Currículo:</h2>
-            <p><a href="https://curr-culo-56g8.vercel.app/" target="_blank">https://curr-culo-56g8.vercel.app/</a></p>
+            <h1 data-translate="name3">Kayo Malmsteen Gabriel Ferreira Motta</h1>
+            <h2 data-translate="h2_name3">Currículo:</h2>
+            <p><a href="https://curr-culo-56g8.vercel.app/" target="_blank" data-translate="curriculo3">https://curr-culo-56g8.vercel.app/</a></p>
         </div>
     </main>
-    <footer>© 2025 Todos os direitos reservados.</footer>
-      <script src="js/script2.js"></script>
+    <footer>
+        <div class="credito">
+            <p data-translate="footer_credit1">Site desenvolvido por um grupo do IFPR</p>
+            <p data-translate="footer_credit2">Direitos e créditos: Luiz Gustavo, </p>
+            <p data-translate="footer_credit3">Lucas Ferreira, Kayo Motta</p>
+        </div>
+
+        <div>
+            <p data-translate="footer_contact">Fale conosco</p>
+            <p><a data-translate="footer_email" href="mailto:sitenaescola1@gmail.com">sitenaescola1@gmail.com</a></p>
+
+        </div>
+    </footer>
+    <script src="js/script2.js"></script>
 </body>
 
 </html>

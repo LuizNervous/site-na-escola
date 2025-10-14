@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #22b396;
+  color: #53d8bd;
 }
 
 
@@ -57,9 +57,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 0.9rem; 
-  
+  font-size: 0.9rem;
+
 }
+
 footer a {
   color: white;
 }
@@ -67,6 +68,45 @@ footer a {
 body.dark-mode {
   background-color: #1e1e1e;
   color: #e0e0e0;
+}
+
+body.dark-mode #TrocarIdioma {
+  background-color: #000000;
+  color: #c71d72;
+}
+
+#TrocarIdioma {
+  top: 29px;
+  right: 20px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border: none;
+}
+
+
+#modoescuro {
+  background-color: #3a99f1;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#modoescuro:hover {
+  background-color: #45bdec;
+}
+
+body.dark-mode #modoescuro {
+  background-color: #4f1fbe;
+}
+
+body.dark-mode #modoescuro:hover {
+  background-color: #5118ec;
 }
 
 main {
@@ -84,22 +124,23 @@ main div {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: #333;
 }
+
 body.dark-mode {
-    background-color: #1e1e1e;
-    color: #e0e0e0;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
 }
 
 body.dark-mode header,
-body.dark-mode footer,
-body.dark-mode div {
-    background-color: #111;
-    color: #f0f0f0;
-}
-body.dark-mode a {
-    color: white;
-}
-body.dark-mode div {
-    background-color: #070707b2;
-    color: #f0f0f0;
+body.dark-mode footer{
+  background-color: #111;
+  color: #f0f0f0;
 }
 
+body.dark-mode a {
+  color: white;
+}
+
+body.dark-mode main div {
+  background-color: #070707b2;
+  color: #f0f0f0;
+}
