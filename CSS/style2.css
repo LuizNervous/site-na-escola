@@ -81,7 +81,7 @@ body.dark-mode #TrocarIdioma {
   padding: 6px 10px;
   border-radius: 10px;
   font-size: 14px;
-  background-color: white;
+  background-color: #70baff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   border: none;
@@ -102,12 +102,13 @@ body.dark-mode #TrocarIdioma {
 }
 
 body.dark-mode #modoescuro {
-  background-color: #4f1fbe;
+  background-color: #770b34;
 }
 
 body.dark-mode #modoescuro:hover {
-  background-color: #5118ec;
+  background-color: #ac142d;
 }
+
 
 main {
   padding: 30px;
@@ -131,7 +132,7 @@ body.dark-mode {
 }
 
 body.dark-mode header,
-body.dark-mode footer{
+body.dark-mode footer {
   background-color: #111;
   color: #f0f0f0;
 }

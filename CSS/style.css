@@ -53,7 +53,8 @@ header nav {
   flex-wrap: wrap;
   gap: 15px;
 }
-body.dark-mode #TrocarIdioma{
+
+body.dark-mode #TrocarIdioma {
   background-color: #000000;
   color: #c71d72;
 }
@@ -64,8 +65,8 @@ body.dark-mode #TrocarIdioma{
   padding: 6px 10px;
   border-radius: 10px;
   font-size: 14px;
-  background-color: white;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  background-color: #70baff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   border: none;
 }
@@ -83,11 +84,13 @@ body.dark-mode #TrocarIdioma{
 #modoescuro:hover {
   background-color: #45bdec;
 }
-body.dark-mode #modoescuro{
-    background-color: #4f1fbe;
+
+body.dark-mode #modoescuro {
+  background-color: #770b34;
 }
-body.dark-mode #modoescuro:hover{
-    background-color: #5118ec;
+
+body.dark-mode #modoescuro:hover {
+  background-color: #ac142d;
 }
 
 main {
@@ -141,7 +144,7 @@ main {
 footer {
   background-color: #2c3e50;
   color: white;
- text-align: center;
+  text-align: center;
 
   padding: 20px 10px;
   margin-top: 40px;
@@ -151,6 +154,11 @@ footer {
 .help {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.credito {
+  margin: 10px;
 }
 
 #topBtn {
@@ -184,7 +192,11 @@ body.dark-mode .section {
 }
 
 body.dark-mode a {
-  color: #4da8ff;
+  color: #f0f0f0;
+}
+
+body.dark-mode a:hover {
+  color: #45d3b6;
 }
 
 body.dark-mode #topBtn {
