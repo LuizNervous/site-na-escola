@@ -133,6 +133,9 @@ body.dark-mode footer {
 body.dark-mode a {
     color: white;
 }
+body.dark-mode a:hover {
+    color: rgb(87, 255, 138);
+}
 
 body.dark-mode main {
     background-color: #070707b2;
