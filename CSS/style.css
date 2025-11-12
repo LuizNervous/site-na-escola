@@ -54,10 +54,6 @@ header nav {
   gap: 15px;
 }
 
-body.dark-mode #TrocarIdioma {
-  background-color: #000000;
-  color: #c71d72;
-}
 
 #TrocarIdioma {
   top: 29px;
@@ -85,12 +81,18 @@ body.dark-mode #TrocarIdioma {
   background-color: #45bdec;
 }
 
+body.dark-mode #TrocarIdioma {
+  background-color: #16a085; 
+  color: white; 
+}
+
 body.dark-mode #modoescuro {
-  background-color: #770b34;
+  background-color: #16a085; 
+  color: white;
 }
 
 body.dark-mode #modoescuro:hover {
-  background-color: #ac142d;
+  background-color: #13856b; 
 }
 
 main {

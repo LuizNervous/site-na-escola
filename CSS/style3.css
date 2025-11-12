@@ -21,6 +21,7 @@ button {
     border: none;
     background-color: #16a085;
     color: rgb(255, 255, 255);
+     transition: all 0.3s;
 }
 
 button:hover {
@@ -86,8 +87,18 @@ body.dark-mode {
 }
 
 body.dark-mode #TrocarIdioma {
-    background-color: #000000;
-    color: #c71d72;
+  background-color: #16a085; 
+  color: white; 
+}
+
+body.dark-mode #modoescuro {
+  background-color: #16a085; 
+  color: white;
+  transition: all 0.3s;
+}
+
+body.dark-mode #modoescuro:hover {
+  background-color: #13856b; 
 }
 
 #TrocarIdioma {
@@ -115,13 +126,6 @@ body.dark-mode #TrocarIdioma {
     background-color: #45bdec;
 }
 
-body.dark-mode #modoescuro {
-    background-color: #770b34;
-}
-
-body.dark-mode #modoescuro:hover {
-    background-color: #ac142d;
-}
 
 
 body.dark-mode header,
