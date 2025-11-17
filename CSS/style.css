@@ -101,12 +101,15 @@ main {
 
 .section {
   background-color: white;
-  padding: 25px;
+  padding: 2.5vh;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
 }
+
 
 .deixarimgdolado {
   display: flex;
@@ -125,6 +128,15 @@ main {
 @media (max-width: 600px) {
   .section img {
     width: 100%;
+  }
+}
+@media (max-width: 1370px) {
+  .deixarimgdolado{
+    flex-direction: column;
+
+  }
+  .deixarimgdolado img{
+        max-width: 100%;
   }
 }
 

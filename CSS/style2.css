@@ -43,6 +43,7 @@ a {
   color: #181818;
   margin: 0 10px;
   transition: all 0.3s;
+  position: relative;
 }
 
 a:hover {
